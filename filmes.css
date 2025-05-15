@@ -1,0 +1,139 @@
+body{
+    background-color: #0f171e ;
+    top:0;
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.login{
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #293e4d;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.login:hover{
+  background-color: #192630;
+}
+
+header{
+    background-color: #1c2b36;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+h1 img{
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  
+}
+h1 img:hover{
+  background-color: #2e4656;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #a1a1a1;
+  }
+  
+  ul {
+    font-size: 20px;
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  main{
+    padding: 40px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th{
+    font-size: 22px;
+    padding: 16px;
+    background-color: #1c2b36;
+  }
+  td{
+    padding: 20px;
+    vertical-align: top;
+  }
+  td img{
+    width: 100%;
+    max-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+
+  td img:hover{
+    transform: scale(1.05);
+  }
+  .titulo-filme {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 8px 0 4px 0;
+  }
+  .assistir{
+    list-style: none;
+    font-weight: bold;
+  }
+
+  td a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease
+  }
+      
+      
+      td a:hover {
+        color: #a1a1a1;
+      }
+
+.informações a{
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.informações a:hover{
+  color: #a1a1a1;
+}
+
+.informações a:active{
+  color: #706f6f;
+}
+
+
+
+
+
+      
+    
+  
