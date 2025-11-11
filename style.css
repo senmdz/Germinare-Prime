@@ -67,6 +67,72 @@ nav ul li a {
     padding: 10px 0;
   }
 
+  
+.item-carrossel img {
+  position: relative;
+  height: 90vh;
+  background-size: cover;
+  background-color: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent 60%);;
+  overflow: hidden;
+  animation: zoom 15s infinite alternate ease-in-out;
+}
+
+
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+
+
+.texto-carrossel {
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+  text-align: left;
+  text-shadow: 3px 4px 8px 4px rgba(0,0,0,0.6);;
+}
+
+.texto-carrossel h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+
+.texto-carrossel p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  
+}
+
+.texto-carrossel .botao {
+  background-color: #293e4d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 3px 4px 8px 4px rgba(0,0,0,0.6);
+  transition: color 0.3s ease;
+}
+
+.texto-carrossel .botao:hover {
+  color: #a1a1a1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 45%; 
+  transform: translateY(-50%);
+}
+
+
   main{
     padding: 40px;
   }
@@ -118,20 +184,20 @@ nav ul li a {
       td a:hover {
         color: #a1a1a1;
       }
+      .informações a{
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s ease;
+      }
+      
+      .informações a:hover{
+        color: #a1a1a1;
+      }
+      
+      .informações a:active{
+        color: #706f6f;
+      }
 
-.informações a{
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease;
-}
-
-.informações a:hover{
-  color: #a1a1a1;
-}
-
-.informações a:active{
-  color: #706f6f;
-}
 
 
 
