@@ -1,4 +1,4 @@
-    // Cria o popup
+    // cria o popup
     const popup = document.createElement("div");
     popup.id = "popup";
     popup.innerHTML = `
@@ -11,15 +11,16 @@
     const popupImg = document.getElementById("popup-img");
     const closeBotao = document.getElementById("fecha-popup");
 
-    // Quando clicar no botão, abre o popup com a imagem correspondente
+    // quando clica no botão, aparece a imagem
     botoes.forEach(botao => {
         botao.addEventListener("click", () => {
-            const img = botao.previousElementSibling; // pega a <img> logo acima
+            const img = botao.previousElementSibling; 
             popupImg.src = img.src;
             popup.style.display = "flex";
         });
     });
 
+    // quando clica esc ou clica fora da imagem, sai
     document.addEventListener ('keydown', function(event) {
         if (event.key === "Escape" ){
             popup.style.display = "none";
